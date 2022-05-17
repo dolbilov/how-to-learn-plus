@@ -1,0 +1,36 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/content/content.css);
+@import url(../blocks/description/description.css);
+@import url(../blocks/techniques/techniques.css);
+@import url(../blocks/digits/digits.css);
+@import url(../blocks/kaufman/kaufman.css);
+@import url(../blocks/resources/resources.css);
+@import url(../blocks/footer/footer.css);
+
+
+/* Скажите, пожалуйста, где правильно подключать шрифты: здесь или в page.css? Или вообще стоит выносить в отдельный файл типа fonts.css? */
+@font-face {
+  font-family: 'Inter';
+  src:
+    url(../vendor/fonts/Inter/Inter-Regular.woff2) format('woff2'),
+    url(../vendor/fonts/Inter/Inter-Regular.woff) format('woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src:
+    url(../vendor/fonts/Inter/Inter-SemiBold.woff2) format('woff2'),
+    url(../vendor/fonts/Inter/Inter-SemiBold.woff) format('woff');
+  font-weight: 600; /* В брифе сказано, что полужирный это 700, но в интернете везде сказано, что semibold это 600, а 700 это уже bold */
+}
+
+@font-face {
+  font-family: 'Inter';
+  src:
+    url(../vendor/fonts/Inter/Inter-Bold.woff2) format('woff2'),
+    url(../vendor/fonts/Inter/Inter-Bold.woff) format('woff');
+  font-weight: bold;
+}
