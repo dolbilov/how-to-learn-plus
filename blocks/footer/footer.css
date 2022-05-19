@@ -1,0 +1,8 @@
+.footer {
+  box-sizing: border-box;
+  background: #1f1f1f;
+  color: #fff; /* или тут лучше использовать обозначения словами, например, white?*/
+  padding: 60px 64px 40px;
+  min-height: 350px;
+  height: 1px; /* это требуется поставить, чтобы для дочерних элементов можно было использовать height: 100% */
+}
