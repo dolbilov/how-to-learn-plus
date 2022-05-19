@@ -22,6 +22,15 @@
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
 @import url(../blocks/techniques/techniques.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__description/cards__description.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__title/cards__title.css);
+
+
 @import url(../blocks/digits/digits.css);
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/resources/resources.css);
