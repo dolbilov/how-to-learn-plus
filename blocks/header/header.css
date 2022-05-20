@@ -7,4 +7,6 @@
   justify-content: center;
   background-color: #f2f2f2;
   margin-bottom: 100px;
+  position: relative;
+  padding-left: 64px;
 }
