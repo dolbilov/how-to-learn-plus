@@ -9,4 +9,5 @@
   margin-bottom: 100px;
   position: relative;
   padding-left: 64px;
+  overflow: hidden;
 }
