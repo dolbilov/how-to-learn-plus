@@ -3,9 +3,11 @@
   font-size: 18px;
   font-weight: normal;
   width: 388px;
+  display: inline-block;
+  margin: 0;
+  z-index: 5;
+
   position: absolute;
   bottom: 30px;
   left: 64px;
-  display: inline-block;
-  margin: 0;
 }

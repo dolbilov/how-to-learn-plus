@@ -3,8 +3,9 @@
   height: 608px;
   background-image: url(/images/header-image.png);
   background-size: cover;
+  z-index: 2;
+
   position: absolute;
   right: 0;
   bottom: 0;
-  z-index: 2;
 }
