@@ -3,14 +3,9 @@
   justify-content: start;
   align-items: center;
   text-decoration: none;
-  transition: opacity .2s linear;
   line-height: 18px;
   font-size: 18px;
   font-weight: normal;
   color: #fff;
   margin-bottom: 10px; /* у родительского блока margin-bottom = 16, за счет схлопывания margin можно не обнулять у последней ссылки */
-}
-
-.footer__column-link:hover {
-  opacity: .6;
 }
