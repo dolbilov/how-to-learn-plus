@@ -7,7 +7,7 @@
   line-height: 18px;
   font-size: 18px;
   font-weight: normal;
-  color: white;
+  color: #fff;
   margin-bottom: 10px; /* у родительского блока margin-bottom = 16, за счет схлопывания margin можно не обнулять у последней ссылки */
 }
 
