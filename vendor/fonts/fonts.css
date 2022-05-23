@@ -1,23 +1,29 @@
 @font-face {
   font-family: 'Inter';
   src:
-    url(../vendor/fonts/Inter/Inter-Regular.woff2) format('woff2'),
-    url(../vendor/fonts/Inter/Inter-Regular.woff) format('woff');
+    url(./Inter/Inter-Regular.woff2) format('woff2'),
+    url(./Inter/Inter-Regular.woff) format('woff');
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'Inter';
   src:
-    url(../vendor/fonts/Inter/Inter-SemiBold.woff2) format('woff2'),
-    url(../vendor/fonts/Inter/Inter-SemiBold.woff) format('woff');
-  font-weight: 700;
+    url(./Inter/Inter-SemiBold.woff2) format('woff2'),
+    url(./Inter/Inter-SemiBold.woff) format('woff');
+  font-weight: 600;
+  /*
+  То есть для тектовых элементов, для которых в брифе указано полужирное начертание,
+  мы прописываем font-weight: 700. 700 = bold, то есть для тех всех этих элементов
+  будет использоваться Inter-Bold? А Inter-Semibold подключен,
+  но не применен ни для каких текстовых элементов?
+  */
 }
 
 @font-face {
   font-family: 'Inter';
   src:
-    url(../vendor/fonts/Inter/Inter-Bold.woff2) format('woff2'),
-    url(../vendor/fonts/Inter/Inter-Bold.woff) format('woff');
+    url(./Inter/Inter-Bold.woff2) format('woff2'),
+    url(./Inter/Inter-Bold.woff) format('woff');
   font-weight: bold;
 }
