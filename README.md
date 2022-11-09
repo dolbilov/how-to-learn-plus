@@ -1,18 +1,20 @@
-# Научиться учиться
+# How to learn
 
-Данный проект является курсовым проектом Яндекс.Практикума по теме "Статическая верстка". Ширина страницы ограничена `1100px` снизу и `1600px` сверху. 
+## Description
 
-![Скриншот стартовой страницы проекта](https://i.imgur.com/JSQI3ZC.png)
-
-## Стек
-
-- HTML (FlexBox)
+This project is a course project of Yandex.Practicum.  
+Theme: Static make up. Content width is limited between `1100px` and `1600px`.
+## Tecnhology stack
+- HTML
 - CSS
-- Методолгия BEM Nested
+- BEM Nested methodology
+- FlexBox
 
+## Visuals
+![Screenshot of main page](https://i.imgur.com/JSQI3ZC.png)
 
-## Запуск
-Рабочий прототип представлен [здесь](https://dolbilov.github.io/how-to-learn-plus/).
+## Usage
+Working prototype is [here](https://dolbilov.github.io/how-to-learn-plus/).
 
----
-&copy; Кирилл Долбилов feat. Яндекс.Практикум.
+## Authors
+Kirill Dolbilov feat. Yandex.Practicum
