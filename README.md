@@ -8,6 +8,7 @@
 
 - HTML (FlexBox)
 - CSS
+- Методолгия BEM Nested
 
 
 ## Запуск
