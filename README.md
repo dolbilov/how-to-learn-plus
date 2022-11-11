@@ -6,9 +6,8 @@ This project is a course project of Yandex.Practicum.
 **Theme**: Static make up.  
 Content width is limited between `1100px` and `1600px`. _NO adaptive and responsive layout._
 
-## **Tecnhology stack**
+## **Stack**
 
-- HTML
 - CSS
 - BEM Nested methodology
 - FlexBox
